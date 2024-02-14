@@ -3,6 +3,7 @@
 ## Overview
 This repository is a step-by-step guide on how to containerize a Flask application for development with Docker and Postgres. For production environments, it further integrates Nginx and Gunicorn for enhanced performance and security. This setup also includes handling of static and user-uploaded media files via Nginx, making it a comprehensive solution for deploying Python web applications.
 
+<gif src='docker_demo.gif' width=100%>
 
 Note: The gif above demonstrates the process of uploading an image to the application, showcasing ease of use and functionality.
 
@@ -47,7 +48,9 @@ docker-compose exec web python manage.py seed_db
 
 - Accessing the Application:
 
-Development: Navigate to http://localhost:1348/ to view the application.
-Production: Navigate to http://localhost:1337/ to view the application through Nginx.
+Development: Navigate to http://localhost:8080/ to view the application.
+Production: Navigate to http://localhost:8080/ to view the application through Nginx.
+
+Note: Port forwarding maybe required depending on permissions.
 
 
