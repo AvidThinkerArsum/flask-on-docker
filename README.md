@@ -3,7 +3,7 @@
 ## Overview
 This repository is a step-by-step guide on how to containerize a Flask application for development with Docker and Postgres. For production environments, it further integrates Nginx and Gunicorn for enhanced performance and security. This setup also includes handling of static and user-uploaded media files via Nginx, making it a comprehensive solution for deploying Python web applications.
 
-<gif src='docker_demo.gif' width=100%>
+![A demonstration for using this project](docker_demo.gif)
 
 Note: The gif above demonstrates the process of uploading an image to the application, showcasing ease of use and functionality.
 
