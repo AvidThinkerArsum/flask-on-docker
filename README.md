@@ -49,6 +49,7 @@ docker-compose exec web python manage.py seed_db
 - Accessing the Application:
 
 Development: Navigate to http://localhost:8080/ to view the application.
+
 Production: Navigate to http://localhost:8080/ to view the application through Nginx.
 
 Note: Port forwarding maybe required depending on permissions.
